@@ -5,9 +5,18 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // GitHub configuration
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || 'your_github_token_here';
-const GITHUB_REPO = process.env.GITHUB_REPO || 'yourusername/ocr-annotation-tool';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = process.env.GITHUB_REPO;
 const GITHUB_API_BASE = 'https://api.github.com/repos/' + GITHUB_REPO;
+
+console.log('GitHub Config:', {
+  repo: GITHUB_REPO,
+  tokenExists: !!GITHUB_TOKEN
+});
+
+if (!GITHUB_TOKEN || !GITHUB_REPO) {
+  console.error('Missing GitHub configuration! Please set GITHUB_TOKEN and GITHUB_REPO environment variables.');
+}
 
 app.use(express.json({ limit: '10mb' }));
 

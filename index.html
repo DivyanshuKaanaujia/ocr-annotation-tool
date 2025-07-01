@@ -157,6 +157,9 @@ function loadNextImage() {
       });
   };
   img.src = `https://raw.githubusercontent.com/${window.GITHUB_REPO || 'yourusername/ocr-annotation-tool'}/main/images/${imageName}`;
+  
+  // Set GitHub repo for frontend
+  window.GITHUB_REPO = 'yourusername/ocr-annotation-tool'; // Replace with your actual repo
 }
 
 function drawWords(words) {
