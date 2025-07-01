@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OCR Annotation Tool</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #controls { margin-top: 10px; }
+    #canvas-container {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      display: block;
+    }
+    .word-box {
+      position: absolute;
+      border-width: 2px;
+      border-style: solid;
+      cursor: pointer;
+      background: transparent;
+      color: transparent;
+      font-weight: normal;
+      font-size: 12px;
+      z-index: 10;
+      pointer-events: auto;
+      box-sizing: border-box;
+      /* No padding */
+      padding: 0;
+    }
+    .bold { border-color: #007bff; }
+    .italic { border-color: #28a745; }
+    .bolditalic { border-color: #6f42c1; }
+    .regular { border-color: #ff9800; }
+  </style>
+</head>
+<body>
+
+<h2>📝 OCR Word Annotation Tool (Folder-based)</h2>
+
+<!-- Legend for bounding box styles -->
+<div id="legend" style="margin-bottom: 10px;">
+  <span style="display:inline-block; border:2px solid #ff9800; width:18px; height:12px; vertical-align:middle; margin-right:4px;"></span>
+  <span style="margin-right:16px;">Regular</span>
+  <span style="display:inline-block; border:2px solid #007bff; width:18px; height:12px; vertical-align:middle; margin-right:4px;"></span>
+  <span style="margin-right:16px;">Bold</span>
+  <span style="display:inline-block; border:2px solid #28a745; width:18px; height:12px; vertical-align:middle; margin-right:4px;"></span>
+  <span style="margin-right:16px;">Italic</span>
+  <span style="display:inline-block; border:2px solid #6f42c1; width:18px; height:12px; vertical-align:middle; margin-right:4px;"></span>
+  <span>Bold Italic</span>
+</div>
+
+<div id="controls">
+  <button id="nextBtn">Next</button>
+  <button id="saveBtn">Save JSON</button>
+  <span id="status"></span>
+</div>
+
+<div id="canvas-container">
+  <canvas id="canvas"></canvas>
+</div>
+
+<script>
+let imageList = [];
+let currentIndex = -1;
+let currentImage = null;
+let currentJSON = null;
+let wordElements = [];
+let canvas = document.getElementById('canvas');
+let ctx = canvas.getContext('2d');
+const container = document.getElementById('canvas-container');
+
+// On load, get list of annotated images
+let annotatedSet = new Set();
+fetch('/api/images')
+  .then(res => res.json())
+  .then(list => {
+    imageList = list;
+    // Fetch annotated files
+    return fetch('/api/annotated').then(res => res.json());
+  })
+  .then(annotatedFiles => {
+    annotatedSet = new Set(annotatedFiles.map(f => f.replace(/_annotated\.json$/i, '')));
+    // Find first un-annotated image
+    currentIndex = imageList.findIndex(img => !annotatedSet.has(img.replace(/\.(jpg|jpeg|png)$/i, '')));
+    if (currentIndex === -1) {
+      alert("✅ All images are already annotated!");
+      return;
+    }
+    // Set to one before the target so loadNextImage() increments to correct position
+    currentIndex = currentIndex - 1;
+    if (imageList.length === 0) {
+      alert("No images found in /images/");
+    } else {
+      loadNextImage();
+    }
+  });
+
+document.getElementById('nextBtn').onclick = () => {
+  saveJSON();
+  loadNextImage();
+};
+
+document.getElementById('saveBtn').onclick = saveJSON;
+
+function loadNextImage() {
+  clearWordBoxes();
+  
+  // Keep incrementing until we find an un-annotated image
+  do {
+    currentIndex++;
+    if (currentIndex >= imageList.length) {
+      alert("✅ All images done.");
+      return;
+    }
+    
+    const imageName = imageList[currentIndex];
+    const baseName = imageName.replace(/\.(jpg|jpeg|png)$/i, '');
+    
+    // Check if this image is already annotated
+    if (annotatedSet.has(baseName)) {
+      console.log(`Skipping already annotated image: ${imageName}`);
+      continue; // Skip this image, it's already annotated
+    }
+    
+    // Found an un-annotated image, break the loop
+    break;
+  } while (true);
+
+  const imageName = imageList[currentIndex];
+  const baseName = imageName.replace(/\.(jpg|jpeg|png)$/i, '');
+  const jsonPath = `/api/old_ocr/${baseName}_tesseract_output.json`;
+
+  // Load Image
+  let img = new Image();
+  img.onload = () => {
+    canvas.width = img.width;
+    canvas.height = img.height;
+    container.style.width = img.width + "px";
+    container.style.height = img.height + "px";
+    ctx.drawImage(img, 0, 0);
+    currentImage = imageName;
+
+    // Load matching JSON
+    fetch(jsonPath)
+      .then(resp => resp.json())
+      .then(data => {
+        currentJSON = data;
+        drawWords(data.words);
+        document.getElementById('status').textContent = `🖼️ ${currentImage}`;
+      })
+      .catch(() => {
+        alert(`JSON not found for ${imageName}`);
+        loadNextImage(); // skip this image
+      });
+  };
+  img.src = `https://raw.githubusercontent.com/${window.GITHUB_REPO || 'yourusername/ocr-annotation-tool'}/main/images/${imageName}`;
+}
+
+function drawWords(words) {
+  for (let word of words) {
+    const box = word.boundingBox;
+    // Find min/max for X and Y
+    const minX = Math.min(...box.map(p => p[0]));
+    const minY = Math.min(...box.map(p => p[1]));
+    const maxX = Math.max(...box.map(p => p[0]));
+    const maxY = Math.max(...box.map(p => p[1]));
+    const div = document.createElement('div');
+    div.className = 'word-box ' + (word.fontStyle || 'regular');
+    div.style.left = minX + 'px';
+    div.style.top = minY + 'px';
+    div.style.width = (maxX - minX) + 'px';
+    div.style.height = (maxY - minY) + 'px';
+    // No text content
+    div.textContent = '';
+    div.onclick = () => {
+      word.fontStyle = nextStyle(word.fontStyle);
+      div.className = 'word-box ' + word.fontStyle;
+    };
+    container.appendChild(div);
+    wordElements.push(div);
+  }
+}
+
+function nextStyle(current) {
+  let styles = ['regular', 'bold', 'italic', 'bolditalic'];
+  let index = styles.indexOf(current || 'regular');
+  return styles[(index + 1) % styles.length];
+}
+
+function clearWordBoxes() {
+  for (let el of wordElements) el.remove();
+  wordElements = [];
+}
+
+function saveJSON() {
+  if (!currentJSON || !currentImage) return;
+  const baseName = currentImage.replace(/\.(jpg|jpeg|png)$/i, '');
+  fetch('/api/save-json', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      filename: `${baseName}_annotated.json`,
+      data: currentJSON
+    })
+  })
+  .then(res => res.json())
+  .then(result => {
+    if (result.success) {
+      alert('Saved to New_ocr!');
+    } else {
+      alert('Failed to save JSON.');
+    }
+  })
+  .catch(() => alert('Failed to save JSON.'));
+}
+</script>
+
+</body>
+</html>

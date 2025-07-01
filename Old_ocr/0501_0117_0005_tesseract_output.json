@@ -1,0 +1,5307 @@
+{
+  "imageFile": "0501_0117_0005.jpg",
+  "words": [
+    {
+      "text": "276",
+      "boundingBox": [
+        [
+          119,
+          52
+        ],
+        [
+          150,
+          52
+        ],
+        [
+          150,
+          67
+        ],
+        [
+          119,
+          67
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "\u2014",
+      "boundingBox": [
+        [
+          160,
+          59
+        ],
+        [
+          191,
+          59
+        ],
+        [
+          191,
+          62
+        ],
+        [
+          160,
+          62
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "_",
+      "boundingBox": [
+        [
+          189,
+          48
+        ],
+        [
+          194,
+          48
+        ],
+        [
+          194,
+          75
+        ],
+        [
+          189,
+          75
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Word",
+      "boundingBox": [
+        [
+          204,
+          54
+        ],
+        [
+          239,
+          54
+        ],
+        [
+          239,
+          66
+        ],
+        [
+          204,
+          66
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Segmentation",
+      "boundingBox": [
+        [
+          244,
+          48
+        ],
+        [
+          331,
+          48
+        ],
+        [
+          331,
+          75
+        ],
+        [
+          244,
+          75
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "from",
+      "boundingBox": [
+        [
+          337,
+          54
+        ],
+        [
+          374,
+          54
+        ],
+        [
+          374,
+          66
+        ],
+        [
+          337,
+          66
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Unconstrained",
+      "boundingBox": [
+        [
+          381,
+          54
+        ],
+        [
+          480,
+          54
+        ],
+        [
+          480,
+          66
+        ],
+        [
+          381,
+          66
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Handwritten",
+      "boundingBox": [
+        [
+          486,
+          54
+        ],
+        [
+          569,
+          54
+        ],
+        [
+          569,
+          66
+        ],
+        [
+          486,
+          66
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Bangla",
+      "boundingBox": [
+        [
+          575,
+          54
+        ],
+        [
+          622,
+          54
+        ],
+        [
+          622,
+          70
+        ],
+        [
+          575,
+          70
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Document",
+      "boundingBox": [
+        [
+          627,
+          54
+        ],
+        [
+          696,
+          54
+        ],
+        [
+          696,
+          66
+        ],
+        [
+          627,
+          66
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Images",
+      "boundingBox": [
+        [
+          701,
+          54
+        ],
+        [
+          749,
+          54
+        ],
+        [
+          749,
+          70
+        ],
+        [
+          701,
+          70
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "using",
+      "boundingBox": [
+        [
+          206,
+          76
+        ],
+        [
+          242,
+          76
+        ],
+        [
+          242,
+          91
+        ],
+        [
+          206,
+          91
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Distance",
+      "boundingBox": [
+        [
+          248,
+          76
+        ],
+        [
+          307,
+          76
+        ],
+        [
+          307,
+          88
+        ],
+        [
+          248,
+          88
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Transform",
+      "boundingBox": [
+        [
+          311,
+          76
+        ],
+        [
+          381,
+          76
+        ],
+        [
+          381,
+          88
+        ],
+        [
+          311,
+          88
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Figure",
+      "boundingBox": [
+        [
+          120,
+          567
+        ],
+        [
+          162,
+          567
+        ],
+        [
+          162,
+          582
+        ],
+        [
+          120,
+          582
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "2.",
+      "boundingBox": [
+        [
+          166,
+          567
+        ],
+        [
+          178,
+          567
+        ],
+        [
+          178,
+          578
+        ],
+        [
+          166,
+          578
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Illustration",
+      "boundingBox": [
+        [
+          184,
+          567
+        ],
+        [
+          258,
+          567
+        ],
+        [
+          258,
+          579
+        ],
+        [
+          184,
+          579
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of:",
+      "boundingBox": [
+        [
+          263,
+          567
+        ],
+        [
+          280,
+          567
+        ],
+        [
+          280,
+          579
+        ],
+        [
+          263,
+          579
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "(a)",
+      "boundingBox": [
+        [
+          286,
+          567
+        ],
+        [
+          302,
+          567
+        ],
+        [
+          302,
+          581
+        ],
+        [
+          286,
+          581
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "sample",
+      "boundingBox": [
+        [
+          307,
+          567
+        ],
+        [
+          357,
+          567
+        ],
+        [
+          357,
+          582
+        ],
+        [
+          307,
+          582
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "handwritten",
+      "boundingBox": [
+        [
+          362,
+          567
+        ],
+        [
+          445,
+          567
+        ],
+        [
+          445,
+          579
+        ],
+        [
+          362,
+          579
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Bang/a",
+      "boundingBox": [
+        [
+          450,
+          567
+        ],
+        [
+          498,
+          567
+        ],
+        [
+          498,
+          582
+        ],
+        [
+          450,
+          582
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          502,
+          567
+        ],
+        [
+          570,
+          567
+        ],
+        [
+          570,
+          579
+        ],
+        [
+          502,
+          579
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image,",
+      "boundingBox": [
+        [
+          576,
+          567
+        ],
+        [
+          621,
+          567
+        ],
+        [
+          621,
+          582
+        ],
+        [
+          576,
+          582
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "and",
+      "boundingBox": [
+        [
+          626,
+          567
+        ],
+        [
+          651,
+          567
+        ],
+        [
+          651,
+          579
+        ],
+        [
+          626,
+          579
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "(b)",
+      "boundingBox": [
+        [
+          656,
+          567
+        ],
+        [
+          673,
+          567
+        ],
+        [
+          673,
+          582
+        ],
+        [
+          656,
+          582
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "corresponding",
+      "boundingBox": [
+        [
+          119,
+          589
+        ],
+        [
+          218,
+          589
+        ],
+        [
+          218,
+          604
+        ],
+        [
+          119,
+          604
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "EDT",
+      "boundingBox": [
+        [
+          224,
+          589
+        ],
+        [
+          249,
+          589
+        ],
+        [
+          249,
+          600
+        ],
+        [
+          224,
+          600
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          253,
+          589
+        ],
+        [
+          266,
+          589
+        ],
+        [
+          266,
+          601
+        ],
+        [
+          253,
+          601
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "(a)",
+      "boundingBox": [
+        [
+          271,
+          589
+        ],
+        [
+          287,
+          589
+        ],
+        [
+          287,
+          604
+        ],
+        [
+          271,
+          604
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "2.2",
+      "boundingBox": [
+        [
+          120,
+          650
+        ],
+        [
+          152,
+          650
+        ],
+        [
+          152,
+          668
+        ],
+        [
+          120,
+          668
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Word",
+      "boundingBox": [
+        [
+          165,
+          650
+        ],
+        [
+          219,
+          650
+        ],
+        [
+          219,
+          668
+        ],
+        [
+          165,
+          668
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Extraction",
+      "boundingBox": [
+        [
+          227,
+          650
+        ],
+        [
+          332,
+          650
+        ],
+        [
+          332,
+          668
+        ],
+        [
+          227,
+          668
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "After",
+      "boundingBox": [
+        [
+          119,
+          699
+        ],
+        [
+          160,
+          699
+        ],
+        [
+          160,
+          713
+        ],
+        [
+          119,
+          713
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "performing",
+      "boundingBox": [
+        [
+          167,
+          699
+        ],
+        [
+          257,
+          699
+        ],
+        [
+          257,
+          717
+        ],
+        [
+          167,
+          717
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "EDT",
+      "boundingBox": [
+        [
+          266,
+          699
+        ],
+        [
+          298,
+          699
+        ],
+        [
+          298,
+          713
+        ],
+        [
+          266,
+          713
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "on",
+      "boundingBox": [
+        [
+          305,
+          702
+        ],
+        [
+          324,
+          702
+        ],
+        [
+          324,
+          713
+        ],
+        [
+          305,
+          713
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          332,
+          699
+        ],
+        [
+          357,
+          699
+        ],
+        [
+          357,
+          713
+        ],
+        [
+          332,
+          713
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "original",
+      "boundingBox": [
+        [
+          365,
+          699
+        ],
+        [
+          426,
+          699
+        ],
+        [
+          426,
+          717
+        ],
+        [
+          365,
+          717
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          435,
+          699
+        ],
+        [
+          517,
+          699
+        ],
+        [
+          517,
+          713
+        ],
+        [
+          435,
+          713
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image,",
+      "boundingBox": [
+        [
+          525,
+          699
+        ],
+        [
+          577,
+          699
+        ],
+        [
+          577,
+          717
+        ],
+        [
+          525,
+          717
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "gray-level",
+      "boundingBox": [
+        [
+          586,
+          699
+        ],
+        [
+          664,
+          699
+        ],
+        [
+          664,
+          717
+        ],
+        [
+          586,
+          717
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "thresholding",
+      "boundingBox": [
+        [
+          672,
+          699
+        ],
+        [
+          776,
+          699
+        ],
+        [
+          776,
+          717
+        ],
+        [
+          672,
+          717
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          120,
+          725
+        ],
+        [
+          132,
+          725
+        ],
+        [
+          132,
+          740
+        ],
+        [
+          120,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "done",
+      "boundingBox": [
+        [
+          138,
+          725
+        ],
+        [
+          178,
+          725
+        ],
+        [
+          178,
+          740
+        ],
+        [
+          138,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "to",
+      "boundingBox": [
+        [
+          184,
+          726
+        ],
+        [
+          199,
+          726
+        ],
+        [
+          199,
+          740
+        ],
+        [
+          184,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "binarize",
+      "boundingBox": [
+        [
+          205,
+          725
+        ],
+        [
+          271,
+          725
+        ],
+        [
+          271,
+          740
+        ],
+        [
+          205,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          276,
+          725
+        ],
+        [
+          302,
+          725
+        ],
+        [
+          302,
+          740
+        ],
+        [
+          276,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          308,
+          725
+        ],
+        [
+          391,
+          725
+        ],
+        [
+          391,
+          740
+        ],
+        [
+          308,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "images.",
+      "boundingBox": [
+        [
+          397,
+          725
+        ],
+        [
+          458,
+          725
+        ],
+        [
+          458,
+          743
+        ],
+        [
+          397,
+          743
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "The",
+      "boundingBox": [
+        [
+          464,
+          725
+        ],
+        [
+          494,
+          725
+        ],
+        [
+          494,
+          740
+        ],
+        [
+          464,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "value",
+      "boundingBox": [
+        [
+          500,
+          725
+        ],
+        [
+          544,
+          725
+        ],
+        [
+          544,
+          740
+        ],
+        [
+          500,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          550,
+          725
+        ],
+        [
+          566,
+          725
+        ],
+        [
+          566,
+          740
+        ],
+        [
+          550,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          571,
+          725
+        ],
+        [
+          597,
+          725
+        ],
+        [
+          597,
+          740
+        ],
+        [
+          571,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "threshold",
+      "boundingBox": [
+        [
+          602,
+          725
+        ],
+        [
+          681,
+          725
+        ],
+        [
+          681,
+          740
+        ],
+        [
+          602,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          677,
+          721
+        ],
+        [
+          691,
+          721
+        ],
+        [
+          691,
+          747
+        ],
+        [
+          677,
+          747
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          704,
+          725
+        ],
+        [
+          715,
+          725
+        ],
+        [
+          715,
+          740
+        ],
+        [
+          704,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          721,
+          729
+        ],
+        [
+          730,
+          729
+        ],
+        [
+          730,
+          740
+        ],
+        [
+          721,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "user-",
+      "boundingBox": [
+        [
+          736,
+          729
+        ],
+        [
+          776,
+          729
+        ],
+        [
+          776,
+          740
+        ],
+        [
+          736,
+          740
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "defined",
+      "boundingBox": [
+        [
+          119,
+          751
+        ],
+        [
+          181,
+          751
+        ],
+        [
+          181,
+          766
+        ],
+        [
+          119,
+          766
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "parameter",
+      "boundingBox": [
+        [
+          187,
+          752
+        ],
+        [
+          271,
+          752
+        ],
+        [
+          271,
+          769
+        ],
+        [
+          187,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "which",
+      "boundingBox": [
+        [
+          275,
+          751
+        ],
+        [
+          325,
+          751
+        ],
+        [
+          325,
+          766
+        ],
+        [
+          275,
+          766
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "heavily",
+      "boundingBox": [
+        [
+          332,
+          751
+        ],
+        [
+          390,
+          751
+        ],
+        [
+          390,
+          769
+        ],
+        [
+          332,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "depends",
+      "boundingBox": [
+        [
+          395,
+          751
+        ],
+        [
+          464,
+          751
+        ],
+        [
+          464,
+          769
+        ],
+        [
+          395,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "on",
+      "boundingBox": [
+        [
+          470,
+          755
+        ],
+        [
+          489,
+          755
+        ],
+        [
+          489,
+          766
+        ],
+        [
+          470,
+          766
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          495,
+          751
+        ],
+        [
+          521,
+          751
+        ],
+        [
+          521,
+          766
+        ],
+        [
+          495,
+          766
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "handwriting",
+      "boundingBox": [
+        [
+          527,
+          751
+        ],
+        [
+          627,
+          751
+        ],
+        [
+          627,
+          769
+        ],
+        [
+          527,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "styles",
+      "boundingBox": [
+        [
+          633,
+          751
+        ],
+        [
+          679,
+          751
+        ],
+        [
+          679,
+          769
+        ],
+        [
+          633,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "and",
+      "boundingBox": [
+        [
+          684,
+          751
+        ],
+        [
+          714,
+          751
+        ],
+        [
+          714,
+          766
+        ],
+        [
+          684,
+          766
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "quality",
+      "boundingBox": [
+        [
+          720,
+          751
+        ],
+        [
+          777,
+          751
+        ],
+        [
+          777,
+          769
+        ],
+        [
+          720,
+          769
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          120,
+          777
+        ],
+        [
+          135,
+          777
+        ],
+        [
+          135,
+          792
+        ],
+        [
+          120,
+          792
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          144,
+          777
+        ],
+        [
+          169,
+          777
+        ],
+        [
+          169,
+          792
+        ],
+        [
+          144,
+          792
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          178,
+          777
+        ],
+        [
+          260,
+          777
+        ],
+        [
+          260,
+          792
+        ],
+        [
+          178,
+          792
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image.",
+      "boundingBox": [
+        [
+          270,
+          777
+        ],
+        [
+          323,
+          777
+        ],
+        [
+          323,
+          795
+        ],
+        [
+          270,
+          795
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "If",
+      "boundingBox": [
+        [
+          334,
+          777
+        ],
+        [
+          344,
+          777
+        ],
+        [
+          344,
+          791
+        ],
+        [
+          334,
+          791
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          352,
+          777
+        ],
+        [
+          378,
+          777
+        ],
+        [
+          378,
+          792
+        ],
+        [
+          352,
+          792
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          386,
+          777
+        ],
+        [
+          469,
+          777
+        ],
+        [
+          469,
+          792
+        ],
+        [
+          386,
+          792
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image",
+      "boundingBox": [
+        [
+          479,
+          777
+        ],
+        [
+          527,
+          777
+        ],
+        [
+          527,
+          795
+        ],
+        [
+          479,
+          795
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "incorporates",
+      "boundingBox": [
+        [
+          537,
+          777
+        ],
+        [
+          638,
+          777
+        ],
+        [
+          638,
+          795
+        ],
+        [
+          537,
+          795
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "densely",
+      "boundingBox": [
+        [
+          647,
+          777
+        ],
+        [
+          710,
+          777
+        ],
+        [
+          710,
+          795
+        ],
+        [
+          647,
+          795
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "packed",
+      "boundingBox": [
+        [
+          719,
+          777
+        ],
+        [
+          777,
+          777
+        ],
+        [
+          777,
+          795
+        ],
+        [
+          719,
+          795
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "writing",
+      "boundingBox": [
+        [
+          119,
+          803
+        ],
+        [
+          177,
+          803
+        ],
+        [
+          177,
+          821
+        ],
+        [
+          119,
+          821
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "then,",
+      "boundingBox": [
+        [
+          185,
+          803
+        ],
+        [
+          227,
+          803
+        ],
+        [
+          227,
+          819
+        ],
+        [
+          185,
+          819
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          235,
+          803
+        ],
+        [
+          261,
+          803
+        ],
+        [
+          261,
+          817
+        ],
+        [
+          235,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "threshold",
+      "boundingBox": [
+        [
+          269,
+          803
+        ],
+        [
+          347,
+          803
+        ],
+        [
+          347,
+          817
+        ],
+        [
+          269,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          356,
+          803
+        ],
+        [
+          367,
+          803
+        ],
+        [
+          367,
+          817
+        ],
+        [
+          356,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "to",
+      "boundingBox": [
+        [
+          375,
+          804
+        ],
+        [
+          390,
+          804
+        ],
+        [
+          390,
+          817
+        ],
+        [
+          375,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "be",
+      "boundingBox": [
+        [
+          399,
+          803
+        ],
+        [
+          417,
+          803
+        ],
+        [
+          417,
+          817
+        ],
+        [
+          399,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "decreased",
+      "boundingBox": [
+        [
+          425,
+          803
+        ],
+        [
+          507,
+          803
+        ],
+        [
+          507,
+          817
+        ],
+        [
+          425,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "and",
+      "boundingBox": [
+        [
+          515,
+          803
+        ],
+        [
+          545,
+          803
+        ],
+        [
+          545,
+          817
+        ],
+        [
+          515,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "vice",
+      "boundingBox": [
+        [
+          553,
+          803
+        ],
+        [
+          586,
+          803
+        ],
+        [
+          586,
+          817
+        ],
+        [
+          553,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "versa.",
+      "boundingBox": [
+        [
+          593,
+          806
+        ],
+        [
+          640,
+          806
+        ],
+        [
+          640,
+          817
+        ],
+        [
+          593,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "For",
+      "boundingBox": [
+        [
+          649,
+          803
+        ],
+        [
+          676,
+          803
+        ],
+        [
+          676,
+          817
+        ],
+        [
+          649,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          683,
+          803
+        ],
+        [
+          709,
+          803
+        ],
+        [
+          709,
+          817
+        ],
+        [
+          683,
+          817
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "present",
+      "boundingBox": [
+        [
+          717,
+          804
+        ],
+        [
+          777,
+          804
+        ],
+        [
+          777,
+          821
+        ],
+        [
+          717,
+          821
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "work,",
+      "boundingBox": [
+        [
+          119,
+          829
+        ],
+        [
+          165,
+          829
+        ],
+        [
+          165,
+          845
+        ],
+        [
+          119,
+          845
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          172,
+          829
+        ],
+        [
+          197,
+          829
+        ],
+        [
+          197,
+          843
+        ],
+        [
+          172,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "value",
+      "boundingBox": [
+        [
+          203,
+          829
+        ],
+        [
+          248,
+          829
+        ],
+        [
+          248,
+          843
+        ],
+        [
+          203,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          254,
+          829
+        ],
+        [
+          270,
+          829
+        ],
+        [
+          270,
+          843
+        ],
+        [
+          254,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          275,
+          834
+        ],
+        [
+          286,
+          834
+        ],
+        [
+          286,
+          843
+        ],
+        [
+          275,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          293,
+          829
+        ],
+        [
+          305,
+          829
+        ],
+        [
+          305,
+          843
+        ],
+        [
+          293,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "set",
+      "boundingBox": [
+        [
+          311,
+          830
+        ],
+        [
+          334,
+          830
+        ],
+        [
+          334,
+          843
+        ],
+        [
+          311,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "after",
+      "boundingBox": [
+        [
+          340,
+          829
+        ],
+        [
+          377,
+          829
+        ],
+        [
+          377,
+          843
+        ],
+        [
+          340,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "rigorously",
+      "boundingBox": [
+        [
+          384,
+          829
+        ],
+        [
+          466,
+          829
+        ],
+        [
+          466,
+          847
+        ],
+        [
+          384,
+          847
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "testing",
+      "boundingBox": [
+        [
+          472,
+          829
+        ],
+        [
+          527,
+          829
+        ],
+        [
+          527,
+          847
+        ],
+        [
+          472,
+          847
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          534,
+          832
+        ],
+        [
+          543,
+          832
+        ],
+        [
+          543,
+          843
+        ],
+        [
+          534,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "variety",
+      "boundingBox": [
+        [
+          548,
+          829
+        ],
+        [
+          604,
+          829
+        ],
+        [
+          604,
+          847
+        ],
+        [
+          548,
+          847
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          611,
+          829
+        ],
+        [
+          625,
+          829
+        ],
+        [
+          625,
+          843
+        ],
+        [
+          611,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          631,
+          829
+        ],
+        [
+          714,
+          829
+        ],
+        [
+          714,
+          843
+        ],
+        [
+          631,
+          843
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "images",
+      "boundingBox": [
+        [
+          721,
+          829
+        ],
+        [
+          777,
+          829
+        ],
+        [
+          777,
+          847
+        ],
+        [
+          721,
+          847
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "and",
+      "boundingBox": [
+        [
+          120,
+          855
+        ],
+        [
+          150,
+          855
+        ],
+        [
+          150,
+          869
+        ],
+        [
+          120,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          156,
+          855
+        ],
+        [
+          182,
+          855
+        ],
+        [
+          182,
+          869
+        ],
+        [
+          156,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "optimal",
+      "boundingBox": [
+        [
+          188,
+          855
+        ],
+        [
+          250,
+          855
+        ],
+        [
+          250,
+          873
+        ],
+        [
+          188,
+          873
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "value",
+      "boundingBox": [
+        [
+          257,
+          855
+        ],
+        [
+          302,
+          855
+        ],
+        [
+          302,
+          869
+        ],
+        [
+          257,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          309,
+          855
+        ],
+        [
+          320,
+          855
+        ],
+        [
+          320,
+          869
+        ],
+        [
+          309,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "found",
+      "boundingBox": [
+        [
+          327,
+          855
+        ],
+        [
+          375,
+          855
+        ],
+        [
+          375,
+          869
+        ],
+        [
+          327,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "to",
+      "boundingBox": [
+        [
+          382,
+          856
+        ],
+        [
+          397,
+          856
+        ],
+        [
+          397,
+          869
+        ],
+        [
+          382,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "vary",
+      "boundingBox": [
+        [
+          403,
+          858
+        ],
+        [
+          439,
+          858
+        ],
+        [
+          439,
+          873
+        ],
+        [
+          403,
+          873
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "between",
+      "boundingBox": [
+        [
+          445,
+          855
+        ],
+        [
+          512,
+          855
+        ],
+        [
+          512,
+          869
+        ],
+        [
+          445,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "120",
+      "boundingBox": [
+        [
+          520,
+          855
+        ],
+        [
+          545,
+          855
+        ],
+        [
+          545,
+          869
+        ],
+        [
+          520,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "and",
+      "boundingBox": [
+        [
+          552,
+          855
+        ],
+        [
+          582,
+          855
+        ],
+        [
+          582,
+          869
+        ],
+        [
+          552,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "180",
+      "boundingBox": [
+        [
+          590,
+          855
+        ],
+        [
+          617,
+          855
+        ],
+        [
+          617,
+          869
+        ],
+        [
+          590,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "on",
+      "boundingBox": [
+        [
+          624,
+          858
+        ],
+        [
+          643,
+          858
+        ],
+        [
+          643,
+          869
+        ],
+        [
+          624,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          650,
+          858
+        ],
+        [
+          659,
+          858
+        ],
+        [
+          659,
+          869
+        ],
+        [
+          650,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "scale",
+      "boundingBox": [
+        [
+          665,
+          855
+        ],
+        [
+          706,
+          855
+        ],
+        [
+          706,
+          869
+        ],
+        [
+          665,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          712,
+          855
+        ],
+        [
+          728,
+          855
+        ],
+        [
+          728,
+          869
+        ],
+        [
+          712,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "0-255",
+      "boundingBox": [
+        [
+          734,
+          855
+        ],
+        [
+          776,
+          855
+        ],
+        [
+          776,
+          869
+        ],
+        [
+          734,
+          869
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "gray-level",
+      "boundingBox": [
+        [
+          120,
+          881
+        ],
+        [
+          199,
+          881
+        ],
+        [
+          199,
+          899
+        ],
+        [
+          120,
+          899
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "intensities.",
+      "boundingBox": [
+        [
+          208,
+          881
+        ],
+        [
+          295,
+          881
+        ],
+        [
+          295,
+          896
+        ],
+        [
+          208,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "This",
+      "boundingBox": [
+        [
+          303,
+          881
+        ],
+        [
+          337,
+          881
+        ],
+        [
+          337,
+          896
+        ],
+        [
+          303,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "thresholding",
+      "boundingBox": [
+        [
+          344,
+          881
+        ],
+        [
+          448,
+          881
+        ],
+        [
+          448,
+          899
+        ],
+        [
+          344,
+          899
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          456,
+          881
+        ],
+        [
+          471,
+          881
+        ],
+        [
+          471,
+          896
+        ],
+        [
+          456,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          477,
+          881
+        ],
+        [
+          503,
+          881
+        ],
+        [
+          503,
+          896
+        ],
+        [
+          477,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          509,
+          881
+        ],
+        [
+          592,
+          881
+        ],
+        [
+          592,
+          896
+        ],
+        [
+          509,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image",
+      "boundingBox": [
+        [
+          599,
+          881
+        ],
+        [
+          647,
+          881
+        ],
+        [
+          647,
+          899
+        ],
+        [
+          599,
+          899
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "generates",
+      "boundingBox": [
+        [
+          654,
+          882
+        ],
+        [
+          733,
+          882
+        ],
+        [
+          733,
+          899
+        ],
+        [
+          654,
+          899
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          740,
+          885
+        ],
+        [
+          749,
+          885
+        ],
+        [
+          749,
+          896
+        ],
+        [
+          740,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "set",
+      "boundingBox": [
+        [
+          755,
+          882
+        ],
+        [
+          778,
+          882
+        ],
+        [
+          778,
+          896
+        ],
+        [
+          755,
+          896
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          120,
+          907
+        ],
+        [
+          135,
+          907
+        ],
+        [
+          135,
+          922
+        ],
+        [
+          120,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "smeared",
+      "boundingBox": [
+        [
+          145,
+          907
+        ],
+        [
+          214,
+          907
+        ],
+        [
+          214,
+          922
+        ],
+        [
+          145,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "black",
+      "boundingBox": [
+        [
+          226,
+          907
+        ],
+        [
+          270,
+          907
+        ],
+        [
+          270,
+          922
+        ],
+        [
+          226,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "regions,",
+      "boundingBox": [
+        [
+          280,
+          907
+        ],
+        [
+          344,
+          907
+        ],
+        [
+          344,
+          925
+        ],
+        [
+          280,
+          925
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "shown",
+      "boundingBox": [
+        [
+          356,
+          907
+        ],
+        [
+          409,
+          907
+        ],
+        [
+          409,
+          922
+        ],
+        [
+          356,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "in",
+      "boundingBox": [
+        [
+          421,
+          907
+        ],
+        [
+          435,
+          907
+        ],
+        [
+          435,
+          921
+        ],
+        [
+          421,
+          921
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Fig.",
+      "boundingBox": [
+        [
+          447,
+          907
+        ],
+        [
+          476,
+          907
+        ],
+        [
+          476,
+          925
+        ],
+        [
+          447,
+          925
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "3,",
+      "boundingBox": [
+        [
+          487,
+          907
+        ],
+        [
+          500,
+          907
+        ],
+        [
+          500,
+          924
+        ],
+        [
+          487,
+          924
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "which",
+      "boundingBox": [
+        [
+          511,
+          907
+        ],
+        [
+          561,
+          907
+        ],
+        [
+          561,
+          922
+        ],
+        [
+          511,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "wraps",
+      "boundingBox": [
+        [
+          572,
+          911
+        ],
+        [
+          621,
+          911
+        ],
+        [
+          621,
+          925
+        ],
+        [
+          572,
+          925
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "over",
+      "boundingBox": [
+        [
+          632,
+          911
+        ],
+        [
+          667,
+          911
+        ],
+        [
+          667,
+          922
+        ],
+        [
+          632,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "each",
+      "boundingBox": [
+        [
+          677,
+          907
+        ],
+        [
+          715,
+          907
+        ],
+        [
+          715,
+          922
+        ],
+        [
+          677,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          726,
+          907
+        ],
+        [
+          741,
+          907
+        ],
+        [
+          741,
+          922
+        ],
+        [
+          726,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          751,
+          907
+        ],
+        [
+          777,
+          907
+        ],
+        [
+          777,
+          922
+        ],
+        [
+          751,
+          922
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "possible",
+      "boundingBox": [
+        [
+          120,
+          933
+        ],
+        [
+          187,
+          933
+        ],
+        [
+          187,
+          951
+        ],
+        [
+          120,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "word",
+      "boundingBox": [
+        [
+          194,
+          933
+        ],
+        [
+          235,
+          933
+        ],
+        [
+          235,
+          948
+        ],
+        [
+          194,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "images.",
+      "boundingBox": [
+        [
+          243,
+          933
+        ],
+        [
+          304,
+          933
+        ],
+        [
+          304,
+          951
+        ],
+        [
+          243,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Each",
+      "boundingBox": [
+        [
+          313,
+          933
+        ],
+        [
+          350,
+          933
+        ],
+        [
+          350,
+          948
+        ],
+        [
+          313,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "smeared",
+      "boundingBox": [
+        [
+          358,
+          933
+        ],
+        [
+          426,
+          933
+        ],
+        [
+          426,
+          948
+        ],
+        [
+          358,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "black",
+      "boundingBox": [
+        [
+          435,
+          933
+        ],
+        [
+          479,
+          933
+        ],
+        [
+          479,
+          948
+        ],
+        [
+          435,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "region",
+      "boundingBox": [
+        [
+          486,
+          933
+        ],
+        [
+          536,
+          933
+        ],
+        [
+          536,
+          951
+        ],
+        [
+          486,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "represents",
+      "boundingBox": [
+        [
+          545,
+          934
+        ],
+        [
+          628,
+          934
+        ],
+        [
+          628,
+          951
+        ],
+        [
+          545,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "a",
+      "boundingBox": [
+        [
+          636,
+          937
+        ],
+        [
+          645,
+          937
+        ],
+        [
+          645,
+          948
+        ],
+        [
+          636,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "single",
+      "boundingBox": [
+        [
+          651,
+          933
+        ],
+        [
+          699,
+          933
+        ],
+        [
+          699,
+          951
+        ],
+        [
+          651,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "group",
+      "boundingBox": [
+        [
+          707,
+          937
+        ],
+        [
+          754,
+          937
+        ],
+        [
+          754,
+          951
+        ],
+        [
+          707,
+          951
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          762,
+          933
+        ],
+        [
+          777,
+          933
+        ],
+        [
+          777,
+          948
+        ],
+        [
+          762,
+          948
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "individual",
+      "boundingBox": [
+        [
+          120,
+          959
+        ],
+        [
+          202,
+          959
+        ],
+        [
+          202,
+          973
+        ],
+        [
+          120,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "connected",
+      "boundingBox": [
+        [
+          212,
+          959
+        ],
+        [
+          296,
+          959
+        ],
+        [
+          296,
+          973
+        ],
+        [
+          212,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "components",
+      "boundingBox": [
+        [
+          305,
+          960
+        ],
+        [
+          405,
+          960
+        ],
+        [
+          405,
+          977
+        ],
+        [
+          305,
+          977
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "indicating",
+      "boundingBox": [
+        [
+          415,
+          959
+        ],
+        [
+          496,
+          959
+        ],
+        [
+          496,
+          977
+        ],
+        [
+          415,
+          977
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          505,
+          959
+        ],
+        [
+          531,
+          959
+        ],
+        [
+          531,
+          973
+        ],
+        [
+          505,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "word",
+      "boundingBox": [
+        [
+          539,
+          959
+        ],
+        [
+          580,
+          959
+        ],
+        [
+          580,
+          973
+        ],
+        [
+          539,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image.",
+      "boundingBox": [
+        [
+          590,
+          959
+        ],
+        [
+          642,
+          959
+        ],
+        [
+          642,
+          977
+        ],
+        [
+          590,
+          977
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "Now,",
+      "boundingBox": [
+        [
+          652,
+          959
+        ],
+        [
+          693,
+          959
+        ],
+        [
+          693,
+          976
+        ],
+        [
+          652,
+          976
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          702,
+          959
+        ],
+        [
+          728,
+          959
+        ],
+        [
+          728,
+          973
+        ],
+        [
+          702,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "word",
+      "boundingBox": [
+        [
+          736,
+          959
+        ],
+        [
+          777,
+          959
+        ],
+        [
+          777,
+          973
+        ],
+        [
+          736,
+          973
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "images",
+      "boundingBox": [
+        [
+          120,
+          985
+        ],
+        [
+          177,
+          985
+        ],
+        [
+          177,
+          1003
+        ],
+        [
+          120,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "are",
+      "boundingBox": [
+        [
+          189,
+          988
+        ],
+        [
+          214,
+          988
+        ],
+        [
+          214,
+          999
+        ],
+        [
+          189,
+          999
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "formed",
+      "boundingBox": [
+        [
+          225,
+          985
+        ],
+        [
+          284,
+          985
+        ],
+        [
+          284,
+          999
+        ],
+        [
+          225,
+          999
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "by",
+      "boundingBox": [
+        [
+          297,
+          985
+        ],
+        [
+          316,
+          985
+        ],
+        [
+          316,
+          1003
+        ],
+        [
+          297,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "applying",
+      "boundingBox": [
+        [
+          328,
+          985
+        ],
+        [
+          399,
+          985
+        ],
+        [
+          399,
+          1003
+        ],
+        [
+          328,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          411,
+          985
+        ],
+        [
+          437,
+          985
+        ],
+        [
+          437,
+          999
+        ],
+        [
+          411,
+          999
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "connected",
+      "boundingBox": [
+        [
+          449,
+          985
+        ],
+        [
+          533,
+          985
+        ],
+        [
+          533,
+          999
+        ],
+        [
+          449,
+          999
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "component",
+      "boundingBox": [
+        [
+          545,
+          986
+        ],
+        [
+          637,
+          986
+        ],
+        [
+          637,
+          1003
+        ],
+        [
+          545,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "labelling",
+      "boundingBox": [
+        [
+          650,
+          985
+        ],
+        [
+          720,
+          985
+        ],
+        [
+          720,
+          1003
+        ],
+        [
+          650,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "(CCL)",
+      "boundingBox": [
+        [
+          734,
+          984
+        ],
+        [
+          777,
+          984
+        ],
+        [
+          777,
+          1003
+        ],
+        [
+          734,
+          1003
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "algorithm",
+      "boundingBox": [
+        [
+          120,
+          1011
+        ],
+        [
+          199,
+          1011
+        ],
+        [
+          199,
+          1029
+        ],
+        [
+          120,
+          1029
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "[15]",
+      "boundingBox": [
+        [
+          206,
+          1011
+        ],
+        [
+          231,
+          1011
+        ],
+        [
+          231,
+          1029
+        ],
+        [
+          206,
+          1029
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "in",
+      "boundingBox": [
+        [
+          238,
+          1011
+        ],
+        [
+          252,
+          1011
+        ],
+        [
+          252,
+          1025
+        ],
+        [
+          238,
+          1025
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "each",
+      "boundingBox": [
+        [
+          258,
+          1011
+        ],
+        [
+          295,
+          1011
+        ],
+        [
+          295,
+          1025
+        ],
+        [
+          258,
+          1025
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          301,
+          1011
+        ],
+        [
+          317,
+          1011
+        ],
+        [
+          317,
+          1025
+        ],
+        [
+          301,
+          1025
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "these",
+      "boundingBox": [
+        [
+          321,
+          1011
+        ],
+        [
+          364,
+          1011
+        ],
+        [
+          364,
+          1025
+        ],
+        [
+          321,
+          1025
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "smeared",
+      "boundingBox": [
+        [
+          370,
+          1011
+        ],
+        [
+          438,
+          1011
+        ],
+        [
+          438,
+          1025
+        ],
+        [
+          370,
+          1025
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "regions.",
+      "boundingBox": [
+        [
+          444,
+          1011
+        ],
+        [
+          508,
+          1011
+        ],
+        [
+          508,
+          1029
+        ],
+        [
+          444,
+          1029
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "It",
+      "boundingBox": [
+        [
+          155,
+          1037
+        ],
+        [
+          165,
+          1037
+        ],
+        [
+          165,
+          1052
+        ],
+        [
+          155,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          172,
+          1037
+        ],
+        [
+          183,
+          1037
+        ],
+        [
+          183,
+          1052
+        ],
+        [
+          172,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "observed",
+      "boundingBox": [
+        [
+          189,
+          1037
+        ],
+        [
+          263,
+          1037
+        ],
+        [
+          263,
+          1052
+        ],
+        [
+          189,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "that",
+      "boundingBox": [
+        [
+          269,
+          1037
+        ],
+        [
+          301,
+          1037
+        ],
+        [
+          301,
+          1052
+        ],
+        [
+          269,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          307,
+          1037
+        ],
+        [
+          332,
+          1037
+        ],
+        [
+          332,
+          1052
+        ],
+        [
+          307,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "application",
+      "boundingBox": [
+        [
+          338,
+          1037
+        ],
+        [
+          431,
+          1037
+        ],
+        [
+          431,
+          1055
+        ],
+        [
+          338,
+          1055
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          437,
+          1037
+        ],
+        [
+          453,
+          1037
+        ],
+        [
+          453,
+          1052
+        ],
+        [
+          437,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          458,
+          1037
+        ],
+        [
+          484,
+          1037
+        ],
+        [
+          484,
+          1052
+        ],
+        [
+          458,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "EDT",
+      "boundingBox": [
+        [
+          490,
+          1037
+        ],
+        [
+          523,
+          1037
+        ],
+        [
+          523,
+          1051
+        ],
+        [
+          490,
+          1051
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "on",
+      "boundingBox": [
+        [
+          529,
+          1041
+        ],
+        [
+          548,
+          1041
+        ],
+        [
+          548,
+          1052
+        ],
+        [
+          529,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          554,
+          1037
+        ],
+        [
+          580,
+          1037
+        ],
+        [
+          580,
+          1052
+        ],
+        [
+          554,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          585,
+          1037
+        ],
+        [
+          668,
+          1037
+        ],
+        [
+          668,
+          1052
+        ],
+        [
+          585,
+          1052
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image",
+      "boundingBox": [
+        [
+          674,
+          1037
+        ],
+        [
+          723,
+          1037
+        ],
+        [
+          723,
+          1055
+        ],
+        [
+          674,
+          1055
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "yields",
+      "boundingBox": [
+        [
+          728,
+          1037
+        ],
+        [
+          776,
+          1037
+        ],
+        [
+          776,
+          1055
+        ],
+        [
+          728,
+          1055
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "anon-realistic",
+      "boundingBox": [
+        [
+          120,
+          1063
+        ],
+        [
+          237,
+          1063
+        ],
+        [
+          237,
+          1078
+        ],
+        [
+          120,
+          1078
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "single",
+      "boundingBox": [
+        [
+          243,
+          1063
+        ],
+        [
+          291,
+          1063
+        ],
+        [
+          291,
+          1081
+        ],
+        [
+          243,
+          1081
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "connected",
+      "boundingBox": [
+        [
+          297,
+          1063
+        ],
+        [
+          381,
+          1063
+        ],
+        [
+          381,
+          1078
+        ],
+        [
+          297,
+          1078
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "component",
+      "boundingBox": [
+        [
+          387,
+          1064
+        ],
+        [
+          479,
+          1064
+        ],
+        [
+          479,
+          1081
+        ],
+        [
+          387,
+          1081
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "along",
+      "boundingBox": [
+        [
+          485,
+          1063
+        ],
+        [
+          530,
+          1063
+        ],
+        [
+          530,
+          1081
+        ],
+        [
+          485,
+          1081
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          536,
+          1063
+        ],
+        [
+          562,
+          1063
+        ],
+        [
+          562,
+          1078
+        ],
+        [
+          536,
+          1078
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "border",
+      "boundingBox": [
+        [
+          568,
+          1063
+        ],
+        [
+          620,
+          1063
+        ],
+        [
+          620,
+          1078
+        ],
+        [
+          568,
+          1078
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "region.",
+      "boundingBox": [
+        [
+          627,
+          1063
+        ],
+        [
+          682,
+          1063
+        ],
+        [
+          682,
+          1081
+        ],
+        [
+          627,
+          1081
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "This",
+      "boundingBox": [
+        [
+          689,
+          1063
+        ],
+        [
+          723,
+          1063
+        ],
+        [
+          723,
+          1078
+        ],
+        [
+          689,
+          1078
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "single",
+      "boundingBox": [
+        [
+          729,
+          1063
+        ],
+        [
+          777,
+          1063
+        ],
+        [
+          777,
+          1081
+        ],
+        [
+          729,
+          1081
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "large",
+      "boundingBox": [
+        [
+          121,
+          1089
+        ],
+        [
+          160,
+          1089
+        ],
+        [
+          160,
+          1107
+        ],
+        [
+          121,
+          1107
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "component",
+      "boundingBox": [
+        [
+          166,
+          1090
+        ],
+        [
+          259,
+          1090
+        ],
+        [
+          259,
+          1107
+        ],
+        [
+          166,
+          1107
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "includes",
+      "boundingBox": [
+        [
+          266,
+          1089
+        ],
+        [
+          334,
+          1089
+        ],
+        [
+          334,
+          1104
+        ],
+        [
+          266,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "all",
+      "boundingBox": [
+        [
+          341,
+          1089
+        ],
+        [
+          360,
+          1089
+        ],
+        [
+          360,
+          1104
+        ],
+        [
+          341,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          367,
+          1089
+        ],
+        [
+          392,
+          1089
+        ],
+        [
+          392,
+          1104
+        ],
+        [
+          367,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "word",
+      "boundingBox": [
+        [
+          398,
+          1089
+        ],
+        [
+          439,
+          1089
+        ],
+        [
+          439,
+          1104
+        ],
+        [
+          398,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "images",
+      "boundingBox": [
+        [
+          447,
+          1089
+        ],
+        [
+          503,
+          1089
+        ],
+        [
+          503,
+          1107
+        ],
+        [
+          447,
+          1107
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "which",
+      "boundingBox": [
+        [
+          509,
+          1089
+        ],
+        [
+          559,
+          1089
+        ],
+        [
+          559,
+          1104
+        ],
+        [
+          509,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "are",
+      "boundingBox": [
+        [
+          566,
+          1093
+        ],
+        [
+          591,
+          1093
+        ],
+        [
+          591,
+          1104
+        ],
+        [
+          566,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "close",
+      "boundingBox": [
+        [
+          597,
+          1089
+        ],
+        [
+          638,
+          1089
+        ],
+        [
+          638,
+          1104
+        ],
+        [
+          597,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "to",
+      "boundingBox": [
+        [
+          644,
+          1090
+        ],
+        [
+          660,
+          1090
+        ],
+        [
+          660,
+          1104
+        ],
+        [
+          644,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          666,
+          1089
+        ],
+        [
+          692,
+          1089
+        ],
+        [
+          692,
+          1104
+        ],
+        [
+          666,
+          1104
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "boundary",
+      "boundingBox": [
+        [
+          698,
+          1089
+        ],
+        [
+          777,
+          1089
+        ],
+        [
+          777,
+          1107
+        ],
+        [
+          698,
+          1107
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "of",
+      "boundingBox": [
+        [
+          120,
+          1115
+        ],
+        [
+          135,
+          1115
+        ],
+        [
+          135,
+          1129
+        ],
+        [
+          120,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          144,
+          1115
+        ],
+        [
+          170,
+          1115
+        ],
+        [
+          170,
+          1129
+        ],
+        [
+          144,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "document",
+      "boundingBox": [
+        [
+          179,
+          1115
+        ],
+        [
+          262,
+          1115
+        ],
+        [
+          262,
+          1129
+        ],
+        [
+          179,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "image.",
+      "boundingBox": [
+        [
+          268,
+          1115
+        ],
+        [
+          320,
+          1115
+        ],
+        [
+          320,
+          1133
+        ],
+        [
+          268,
+          1133
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "To",
+      "boundingBox": [
+        [
+          330,
+          1115
+        ],
+        [
+          350,
+          1115
+        ],
+        [
+          350,
+          1129
+        ],
+        [
+          330,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "overcome",
+      "boundingBox": [
+        [
+          355,
+          1118
+        ],
+        [
+          434,
+          1118
+        ],
+        [
+          434,
+          1129
+        ],
+        [
+          355,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "this,",
+      "boundingBox": [
+        [
+          439,
+          1115
+        ],
+        [
+          474,
+          1115
+        ],
+        [
+          474,
+          1131
+        ],
+        [
+          439,
+          1131
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "the",
+      "boundingBox": [
+        [
+          483,
+          1115
+        ],
+        [
+          509,
+          1115
+        ],
+        [
+          509,
+          1129
+        ],
+        [
+          483,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "largest",
+      "boundingBox": [
+        [
+          516,
+          1115
+        ],
+        [
+          569,
+          1115
+        ],
+        [
+          569,
+          1133
+        ],
+        [
+          516,
+          1133
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "connected",
+      "boundingBox": [
+        [
+          575,
+          1115
+        ],
+        [
+          659,
+          1115
+        ],
+        [
+          659,
+          1129
+        ],
+        [
+          575,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "component",
+      "boundingBox": [
+        [
+          664,
+          1116
+        ],
+        [
+          756,
+          1116
+        ],
+        [
+          756,
+          1133
+        ],
+        [
+          664,
+          1133
+        ]
+      ],
+      "fontStyle": "regular"
+    },
+    {
+      "text": "is",
+      "boundingBox": [
+        [
+          762,
+          1115
+        ],
+        [
+          774,
+          1115
+        ],
+        [
+          774,
+          1129
+        ],
+        [
+          762,
+          1129
+        ]
+      ],
+      "fontStyle": "regular"
+    }
+  ]
+}
