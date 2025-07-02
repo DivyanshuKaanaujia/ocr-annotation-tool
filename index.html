@@ -155,14 +155,22 @@ function loadNextImage() {
 
     // Load matching JSON
     fetch(jsonPath)
-      .then(resp => resp.json())
+      .then(resp => {
+        console.log(`OCR JSON response status for ${jsonPath}:`, resp.status);
+        if (!resp.ok) {
+          throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+        }
+        return resp.json();
+      })
       .then(data => {
+        console.log(`Successfully loaded OCR data for ${imageName}`);
         currentJSON = data;
         drawWords(data.words);
         document.getElementById('status').textContent = `🖼️ ${currentImage}`;
       })
-      .catch(() => {
-        alert(`JSON not found for ${imageName}`);
+      .catch(error => {
+        console.error(`Error loading JSON for ${imageName}:`, error.message);
+        alert(`JSON not found for ${imageName}: ${error.message}`);
         loadNextImage(); // skip this image
       });
   };
@@ -210,6 +218,7 @@ function clearWordBoxes() {
 
 function saveJSON() {
   if (!currentJSON || !currentImage) return;
+  console.log('Saving JSON for:', currentImage);
   const baseName = currentImage.replace(/\.(jpg|jpeg|png)$/i, '');
   fetch('/api/save-json', {
     method: 'POST',
@@ -219,15 +228,25 @@ function saveJSON() {
       data: currentJSON
     })
   })
-  .then(res => res.json())
+  .then(res => {
+    console.log('Save response status:', res.status);
+    return res.json();
+  })
   .then(result => {
+    console.log('Save result:', result);
     if (result.success) {
-      alert('Saved to New_ocr!');
+      console.log('Successfully saved annotation');
+      // Update annotated set to include this file
+      annotatedSet.add(baseName);
     } else {
-      alert('Failed to save JSON.');
+      console.error('Save failed:', result.error);
+      alert(`Failed to save JSON: ${result.error}`);
     }
   })
-  .catch(() => alert('Failed to save JSON.'));
+  .catch(error => {
+    console.error('Save error:', error);
+    alert(`Failed to save JSON: ${error.message}`);
+  });
 }
 </script>
 

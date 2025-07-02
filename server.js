@@ -38,7 +38,14 @@ async function githubAPI(endpoint, method = 'GET', data = null) {
   }
   
   const response = await fetch(`${GITHUB_API_BASE}${endpoint}`, options);
-  return response.json();
+  const result = await response.json();
+  
+  if (!response.ok) {
+    console.error(`GitHub API Error (${response.status}):`, result);
+    throw new Error(`GitHub API Error: ${result.message || 'Unknown error'}`);
+  }
+  
+  return result;
 }
 
 // List all images in the images folder
@@ -68,30 +75,38 @@ app.get('/api/annotated', async (req, res) => {
       const jsonFiles = response
         .filter(file => file.name.match(/_annotated\.json$/i))
         .map(file => file.name);
+      console.log(`Found ${jsonFiles.length} annotated files`);
       res.json(jsonFiles);
     } else {
-      // New_ocr folder doesn't exist yet
+      console.log('New_ocr folder not found, returning empty array');
       res.json([]);
     }
   } catch (error) {
-    console.error('Error fetching annotated files:', error);
-    res.json([]); // Return empty array if folder doesn't exist
+    if (error.message.includes('404')) {
+      console.log('New_ocr folder does not exist yet, returning empty array');
+      res.json([]);
+    } else {
+      console.error('Error fetching annotated files:', error.message);
+      res.json([]);
+    }
   }
 });
 
 // Serve JSON from Old_ocr
 app.get('/api/old_ocr/:jsonFile', async (req, res) => {
   try {
+    console.log(`Fetching OCR file: ${req.params.jsonFile}`);
     const response = await githubAPI(`/contents/Old_ocr/${req.params.jsonFile}`);
     if (response.content) {
       const content = Buffer.from(response.content, 'base64').toString('utf8');
       res.type('json').send(content);
     } else {
+      console.log(`OCR file not found: ${req.params.jsonFile}`);
       res.status(404).json({ error: 'JSON not found' });
     }
   } catch (error) {
-    console.error('Error fetching OCR file:', error);
-    res.status(404).json({ error: 'JSON not found' });
+    console.error(`Error fetching OCR file ${req.params.jsonFile}:`, error.message);
+    res.status(404).json({ error: `JSON not found: ${error.message}` });
   }
 });
 
@@ -103,6 +118,8 @@ app.post('/api/save-json', async (req, res) => {
       return res.status(400).json({ error: 'Missing filename or data' });
     }
 
+    console.log(`Saving annotation: ${filename}`);
+    
     const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
     const filePath = `New_ocr/${filename}`;
     
@@ -112,9 +129,10 @@ app.post('/api/save-json', async (req, res) => {
       const existingFile = await githubAPI(`/contents/${filePath}`);
       if (existingFile.sha) {
         sha = existingFile.sha;
+        console.log(`File exists, updating with SHA: ${sha}`);
       }
     } catch (error) {
-      // File doesn't exist, that's okay
+      console.log(`File doesn't exist, creating new: ${filename}`);
     }
 
     const commitData = {
@@ -125,14 +143,16 @@ app.post('/api/save-json', async (req, res) => {
 
     const result = await githubAPI(`/contents/${filePath}`, 'PUT', commitData);
     
-    if (result.content) {
+    if (result.content || result.commit) {
+      console.log(`Successfully saved: ${filename}`);
       res.json({ success: true });
     } else {
+      console.error('Unexpected GitHub response:', result);
       res.status(500).json({ error: 'Failed to save file to GitHub' });
     }
   } catch (error) {
     console.error('Error saving to GitHub:', error);
-    res.status(500).json({ error: 'Failed to save file' });
+    res.status(500).json({ error: `Failed to save file: ${error.message}` });
   }
 });
 
