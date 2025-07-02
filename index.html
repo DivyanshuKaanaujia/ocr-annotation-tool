@@ -75,13 +75,18 @@ const container = document.getElementById('canvas-container');
 // On load, get list of annotated images
 let annotatedSet = new Set();
 fetch('/api/images')
-  .then(res => res.json())
+  .then(res => {
+    console.log('Images API response status:', res.status);
+    return res.json();
+  })
   .then(list => {
+    console.log('Images found:', list);
     imageList = list;
     // Fetch annotated files
     return fetch('/api/annotated').then(res => res.json());
   })
   .then(annotatedFiles => {
+    console.log('Annotated files:', annotatedFiles);
     annotatedSet = new Set(annotatedFiles.map(f => f.replace(/_annotated\.json$/i, '')));
     // Find first un-annotated image
     currentIndex = imageList.findIndex(img => !annotatedSet.has(img.replace(/\.(jpg|jpeg|png)$/i, '')));
@@ -94,8 +99,13 @@ fetch('/api/images')
     if (imageList.length === 0) {
       alert("No images found in /images/");
     } else {
+      console.log('Starting with image index:', currentIndex + 1);
       loadNextImage();
     }
+  })
+  .catch(error => {
+    console.error('Error loading data:', error);
+    alert('Error loading images: ' + error.message);
   });
 
 document.getElementById('nextBtn').onclick = () => {
@@ -156,10 +166,10 @@ function loadNextImage() {
         loadNextImage(); // skip this image
       });
   };
-  img.src = `https://raw.githubusercontent.com/${window.GITHUB_REPO || 'yourusername/ocr-annotation-tool'}/main/images/${imageName}`;
+  img.src = `https://raw.githubusercontent.com/DivyanshuKaanaujia/ocr-annotation-tool/main/images/${imageName}`;
   
   // Set GitHub repo for frontend
-  window.GITHUB_REPO = 'yourusername/ocr-annotation-tool'; // Replace with your actual repo
+  window.GITHUB_REPO = 'DivyanshuKaanaujia/ocr-annotation-tool';
 }
 
 function drawWords(words) {
